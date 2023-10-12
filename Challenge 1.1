@@ -1,6 +1,7 @@
-year =int(input("Enter the year"))
-if (( year % 400 == 0) or ((year % 4 ==0) and (year %  100!=0))):
-
-       print("Leap Year", year)
-else:
-       print("Not Leap year", year)
+n=int(input("Enter number:"))
+fact = 1
+while (n>0):
+    fact = fact*n
+    n=n-1
+print("Factorial of the number is:")
+print(fact)
